@@ -1,0 +1,127 @@
+.features{
+    padding-top: 162px;
+    margin-bottom: 220px;
+}
+
+
+.features__content{
+    display: flex;
+}
+
+.features__list{
+    list-style: none;
+    color: #fff;
+    margin-top: 84px;
+}
+.features__text{
+    font-size: 20px;
+    font-family: RobotoM, sans-serif;
+    width: 153px;
+}
+.features__block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.fatures__icon{
+    padding-right: 13px;
+}
+.features__desc{
+    margin-bottom: 45px;
+    width: 250px;
+    font-family: RobotoL, sans-serif;
+}
+
+.content__subtitle{
+    margin-bottom: 54px;
+}
+
+.content__cards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 210px;
+}
+
+.content__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    height: 630px;
+}
+
+.first-card{
+    margin-right: 33px;
+}
+
+.content__text{
+    color: #000;
+    font-family: RobotoM, sans-serif;
+    margin-bottom: 30px;
+}
+.content__desc{
+    font-family: RobotoL, sans-serif;
+    width: 255px;
+
+}
+
+.gallery{
+    margin-bottom: 146px;
+}
+
+.gallery__subtitle{
+    margin-bottom: 54px;
+}
+
+
+.gallery__section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.gallery__section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery__img{
+    max-width: 100%;
+    margin-right: 33px;
+    border-radius: 12px;
+    height: auto;
+
+}
+.gallery__img:last-child{
+    margin-right: 0;
+}
+.btn-gallery{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.btn-block{
+    margin-top: 44px;
+}
+.partners__subtitle{
+    margin-bottom: 60px;
+}
+.partners__social{
+    display: flex;
+    justify-content: center;
+}
+.partners__social img {
+    margin-right: 74px;
+}
+.partners__social img:last-child{
+    margin-right: 0;
+}
+.block-boottom{
+    margin-bottom: 50px;
+}

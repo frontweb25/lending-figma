@@ -1,7 +1,5 @@
 
-.header {
-    background: #181818;
-}
+
 .header__top{
     display: flex;
     justify-content: space-between;

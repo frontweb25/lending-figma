@@ -5,15 +5,39 @@
 body {
     margin: 0;
     padding: 0;
-    
+    background: #181818;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+ul {
+    margin: 0;
+}
 .container {
     max-width: 1097px;
     width: 100%;
     margin: 0 auto;
+}
+
+.title {
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 27px;
+    font-family: RobotoT, font-size;
+}
+.subtitle {
+    font-size: 20px;
+    font-family: RobotoT, font-size;
+    width: 528px;
+    margin-bottom: 80px;
+}
+
+.texts-block {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
