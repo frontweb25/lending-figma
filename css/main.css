@@ -125,3 +125,44 @@
 .block-boottom{
     margin-bottom: 50px;
 }
+
+.testiminials__title{
+    color: #fff;
+    text-align: center;
+    padding-top: 160px;
+}
+
+
+.testimonials__cards{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 150px;  
+}
+.testimonial{
+    border: 1px solid #DEDEDE;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+}
+.testimonial__title{
+    display: flex;
+}
+.testimonial__name,
+.testimonial__prof {
+    font-family: RobotoM, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+.testimonial__img{
+    margin-right: 23px;
+    margin-bottom: 30px;
+}
+.testimonial__content{
+    font-family: RobotoL, sans-serif;
+    color: #fff;
+}
