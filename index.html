@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                     <a class="header__link" href="#">Abaut</a>
                     <a class="header__link" href="#">Contact</a>
                 </nav>
-                <button class="secondary">Login</button>
+                <button class="secondary button-open-modal">Login</button>
             </section>
         </div>
 
@@ -171,5 +172,20 @@
             </div>
         </section>
     </main>
+    <div class="modal hide">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Регистрация</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btns btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
