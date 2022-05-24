@@ -96,7 +96,12 @@
     margin-right: 33px;
     border-radius: 12px;
     height: auto;
-
+    cursor: pointer;
+    transition: 0.4s;
+}
+.gallery__img:hover {
+    transform: translate(-10px, -10px);
+    
 }
 .gallery__img:last-child{
     margin-right: 0;
@@ -118,6 +123,11 @@
 }
 .partners__social img {
     margin-right: 74px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.partners__social img:hover {
+    transform: translate(-10px, -10px);
 }
 .partners__social img:last-child{
     margin-right: 0;
